@@ -1,0 +1,2 @@
+# Generated binary Word outputs are built locally and not committed.
+build/output/*.docx

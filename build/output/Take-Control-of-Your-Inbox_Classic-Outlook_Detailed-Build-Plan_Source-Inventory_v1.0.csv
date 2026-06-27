@@ -1,0 +1,5 @@
+path,required_or_optional,purpose,size_bytes,sha256,use_status
+BCBSKS_Master_Brand_Kit.md,required,BCBSKS_Master_Brand_Kit.md,32470,90bf385bbda69becbe5fd701238b0b0787b011eeb75eac25aa74c7950d434021,Used
+01. Locked scope for Guide 1.md,required,01. Locked scope for Guide 1.md,3584,1801d382eb7e3bd3ae61e7b2651aee3880acfb3133031fca71388b5eee9d3789,Used
+BCBSKS-ID-Prompt-Guide-v4.0.md,required,BCBSKS-ID-Prompt-Guide-v4.0.md,73152,f8d4ecfbb7b5e7bd4ab55fc9ffdb8a18632fac57a246f2fc98060ef04217d499,Used
+02. Detailed build plan.md,required,Authoritative source,33004,c04e2f7381d200725fe0e47bd27c23a42583b42ca8f4246d0312e4c29eaf1d3e,Built
