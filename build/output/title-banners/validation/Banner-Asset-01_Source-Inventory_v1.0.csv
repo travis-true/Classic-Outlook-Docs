@@ -1,0 +1,50 @@
+path,used,note
+01. Locked scope for Guide 1.md,yes,Markdown source inventory
+02. Detailed build plan.md,yes,Markdown source inventory
+03. Page-by-page copy plan.md,reference inventory,Markdown source inventory
+04. Complete copy deck — Part 1.md,reference inventory,Markdown source inventory
+05. Complete copy deck — Part 2.md,reference inventory,Markdown source inventory
+06. Complete copy deck — Part 3.md,reference inventory,Markdown source inventory
+07. Complete copy deck — Part 4.md,reference inventory,Markdown source inventory
+08. Complete copy deck — Part 5.md,reference inventory,Markdown source inventory
+09. Complete copy deck — Part 6.md,reference inventory,Markdown source inventory
+10. Complete copy deck — Part 7.md,reference inventory,Markdown source inventory
+11. Screenshot capture and annotation plan.md,reference inventory,Markdown source inventory
+12. Platform-difference and master-guide integration map.md,reference inventory,Markdown source inventory
+13. Word production and publishing plan.md,reference inventory,Markdown source inventory
+14. Classic Outlook supplemental support package.md,yes,Markdown source inventory
+AGENTS.md,reference inventory,Markdown source inventory
+BCBSKS-ID-Prompt-Guide-v4.0.md,yes,Markdown source inventory
+BCBSKS_Master_Brand_Kit.md,yes,Markdown source inventory
+Codex-Prompt_Classic-Outlook_Detailed-Guide-Build-Plan_v1.0.md,reference inventory,Markdown source inventory
+README.md,reference inventory,Markdown source inventory
+assets/01-task-map/Design-Spec.md,reference inventory,Markdown source inventory
+assets/01-task-map/README.md,reference inventory,Markdown source inventory
+assets/01-task-map/Task-Map-Source.md,reference inventory,Markdown source inventory
+assets/02-outlook-decision-card/Decision-Card-Source.md,reference inventory,Markdown source inventory
+assets/02-outlook-decision-card/Design-Spec.md,reference inventory,Markdown source inventory
+assets/02-outlook-decision-card/README.md,reference inventory,Markdown source inventory
+assets/03-shared-mailbox-qrg/Design-Spec.md,reference inventory,Markdown source inventory
+assets/03-shared-mailbox-qrg/README.md,reference inventory,Markdown source inventory
+assets/03-shared-mailbox-qrg/Shared-Mailbox-QRG-Source.md,reference inventory,Markdown source inventory
+assets/04-copilot-troubleshooting/Copilot-Troubleshooting-Source.md,reference inventory,Markdown source inventory
+assets/04-copilot-troubleshooting/Design-Spec.md,reference inventory,Markdown source inventory
+assets/04-copilot-troubleshooting/README.md,reference inventory,Markdown source inventory
+assets/05-search-cheat-sheet/Design-Spec.md,reference inventory,Markdown source inventory
+assets/05-search-cheat-sheet/README.md,reference inventory,Markdown source inventory
+assets/05-search-cheat-sheet/Search-Cheat-Sheet-Source.md,reference inventory,Markdown source inventory
+assets/06-keyboard-shortcuts/Design-Spec.md,reference inventory,Markdown source inventory
+assets/06-keyboard-shortcuts/Keyboard-Shortcuts-Source.md,reference inventory,Markdown source inventory
+assets/06-keyboard-shortcuts/README.md,reference inventory,Markdown source inventory
+assets/06-keyboard-shortcuts/Technical-Validation.md,reference inventory,Markdown source inventory
+assets/07-video-production-package/Package-Source.md,reference inventory,Markdown source inventory
+assets/07-video-production-package/Production-Standards.md,reference inventory,Markdown source inventory
+assets/07-video-production-package/README.md,reference inventory,Markdown source inventory
+assets/08-forms-implementation-package/Field-Schema.md,reference inventory,Markdown source inventory
+assets/08-forms-implementation-package/Forms-Package-Source.md,reference inventory,Markdown source inventory
+assets/08-forms-implementation-package/README.md,reference inventory,Markdown source inventory
+assets/title-banners/asset-01-task-map/Banner-Source-Spec.md,reference inventory,Markdown source inventory
+assets/title-banners/asset-01-task-map/Design-Spec.md,reference inventory,Markdown source inventory
+assets/title-banners/asset-01-task-map/README.md,reference inventory,Markdown source inventory
+build/README.md,reference inventory,Markdown source inventory
+docs/training/Take-Control-of-Your-Inbox_Classic-Outlook-for-Windows.md,reference inventory,Markdown source inventory
