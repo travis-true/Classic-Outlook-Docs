@@ -1,0 +1,49 @@
+name: Build asset 02 Outlook decision card
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'assets/02-outlook-decision-card/**'
+      - 'build/build_asset_02_outlook_decision_card.py'
+      - 'build/requirements.txt'
+      - '01. Locked scope for Guide 1.md'
+      - '02. Detailed build plan.md'
+      - '03. Page-by-page copy plan.md'
+      - '04. Complete copy deck — Part 1.md'
+      - '05. Complete copy deck — Part 2.md'
+      - '06. Complete copy deck — Part 3.md'
+      - '07. Complete copy deck — Part 4.md'
+      - '08. Complete copy deck — Part 5.md'
+      - '09. Complete copy deck — Part 6.md'
+      - '10. Complete copy deck — Part 7.md'
+      - '11. Screenshot capture and annotation plan.md'
+      - '12. Platform-difference and master-guide integration map.md'
+      - '13. Word production and publishing plan.md'
+      - '14. Classic Outlook supplemental support package.md'
+      - 'BCBSKS-ID-Prompt-Guide-v4.0.md'
+      - 'BCBSKS_Master_Brand_Kit.md'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: python -m pip install -r build/requirements.txt
+      - name: Build asset
+        run: python build/build_asset_02_outlook_decision_card.py
+      - name: Fail if validation fails
+        run: |
+          ! grep -qi '^Status: Fail' build/output/supplemental-assets/validation/Asset-02_Validation_v1.0.md
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: classic-outlook-asset-02-decision-card
+          path: |
+            build/output/supplemental-assets/02-outlook-decision-card/**
+            build/output/supplemental-assets/validation/Asset-02_*.md
+            build/output/supplemental-assets/validation/Asset-02_*.csv
