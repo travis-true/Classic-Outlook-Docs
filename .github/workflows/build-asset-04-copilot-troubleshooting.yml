@@ -1,0 +1,62 @@
+name: Build asset 04 Copilot troubleshooting
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'assets/04-copilot-troubleshooting/**'
+      - 'build/build_asset_04_copilot_troubleshooting.py'
+      - 'build/requirements.txt'
+      - '01. Locked scope for Guide 1.md'
+      - '02. Detailed build plan.md'
+      - '03. Page-by-page copy plan.md'
+      - '04. Complete copy deck — Part 1.md'
+      - '05. Complete copy deck — Part 2.md'
+      - '06. Complete copy deck — Part 3.md'
+      - '07. Complete copy deck — Part 4.md'
+      - '08. Complete copy deck — Part 5.md'
+      - '09. Complete copy deck — Part 6.md'
+      - '10. Complete copy deck — Part 7.md'
+      - '11. Screenshot capture and annotation plan.md'
+      - '12. Platform-difference and master-guide integration map.md'
+      - '13. Word production and publishing plan.md'
+      - '14. Classic Outlook supplemental support package.md'
+      - 'BCBSKS-ID-Prompt-Guide-v4.0.md'
+      - 'BCBSKS_Master_Brand_Kit.md'
+  pull_request:
+    paths:
+      - 'assets/04-copilot-troubleshooting/**'
+      - 'build/build_asset_04_copilot_troubleshooting.py'
+      - 'build/requirements.txt'
+      - '09. Complete copy deck — Part 6.md'
+      - '12. Platform-difference and master-guide integration map.md'
+      - '14. Classic Outlook supplemental support package.md'
+      - 'BCBSKS-ID-Prompt-Guide-v4.0.md'
+      - 'BCBSKS_Master_Brand_Kit.md'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: python -m pip install -r build/requirements.txt
+      - name: Build asset 04
+        run: python build/build_asset_04_copilot_troubleshooting.py
+      - name: Fail if validation fails
+        run: |
+          test -f build/output/supplemental-assets/validation/Asset-04_Validation_v1.0.md
+          ! grep -E 'Status: Fail|: Fail' build/output/supplemental-assets/validation/Asset-04_Validation_v1.0.md
+      - name: Upload asset artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: classic-outlook-asset-04-copilot-troubleshooting
+          path: |
+            build/output/supplemental-assets/04-copilot-troubleshooting/**
+            build/output/supplemental-assets/validation/Asset-04_*.md
+            build/output/supplemental-assets/validation/Asset-04_*.csv
