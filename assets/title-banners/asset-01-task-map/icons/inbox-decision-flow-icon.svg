@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="420" viewBox="0 0 420 420"><g id="icon-inbox-decision-flow" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="30" y="78" width="360" height="190" rx="22" stroke="#FFFFFF" stroke-width="8" opacity="0.92"/>
+      <path d="M65 116h290l-58 66H123z" stroke="#41B6E6" stroke-width="8"/>
+      <path d="M210 78v-42" stroke="#41B6E6" stroke-width="8"/>
+      <circle cx="210" cy="24" r="36" stroke="#41B6E6" stroke-width="8"/>
+      <path d="M195 24l12 12 24-28" stroke="#FFFFFF" stroke-width="7"/>
+      <path d="M210 268v45M210 313h-105M210 313h105" stroke="#41B6E6" stroke-width="8"/>
+      <rect x="24" y="335" width="150" height="58" rx="18" stroke="#FFFFFF" stroke-width="7" opacity="0.9"/>
+      <rect x="246" y="335" width="150" height="58" rx="18" stroke="#FFFFFF" stroke-width="7" opacity="0.9"/>
+    </g></svg>

@@ -13,3 +13,7 @@ build/output/supplemental-assets/07-video-production-package/**/*.srt
 build/output/supplemental-assets/07-video-production-package/**/*.vtt
 build/output/supplemental-assets/07-video-production-package/**/*.txt
 assets/07-video-production-package/storyboard-mockups/*.png
+
+# Generated title-banner binary outputs are available from local builds and CI artifacts.
+assets/title-banners/**/*.png
+build/output/title-banners/**/*.png

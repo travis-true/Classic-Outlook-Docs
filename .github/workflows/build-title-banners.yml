@@ -1,0 +1,45 @@
+name: Build title banners
+on:
+  workflow_dispatch:
+    inputs:
+      asset:
+        description: Asset number to build
+        required: false
+        default: "01"
+  push:
+    paths:
+      - 'assets/title-banners/**'
+      - 'build/build_title_banners.py'
+      - 'build/build_banner_asset_*.py'
+      - 'build/banner_utils.py'
+      - 'build/requirements.txt'
+      - '*.md'
+      - '.github/workflows/build-title-banners.yml'
+  pull_request:
+    paths:
+      - 'assets/title-banners/**'
+      - 'build/build_title_banners.py'
+      - 'build/build_banner_asset_*.py'
+      - 'build/banner_utils.py'
+      - 'build/requirements.txt'
+      - '*.md'
+      - '.github/workflows/build-title-banners.yml'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install requirements
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r build/requirements.txt
+      - name: Build title banners
+        run: python build/build_title_banners.py --asset "${{ github.event.inputs.asset || '01' }}"
+      - name: Upload title banner artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: classic-outlook-title-banners
+          path: build/output/title-banners
