@@ -1,2 +1,8 @@
 # Generated binary Word outputs are built locally and not committed.
 build/output/*.docx
+# Supplemental generated binary outputs are delivered as workflow artifacts.
+build/output/supplemental-assets/**/*.docx
+build/output/supplemental-assets/**/*.xlsx
+build/output/supplemental-assets/**/*.png
+build/output/supplemental-assets/**/*.pdf
+build/output/supplemental-assets/**/*.zip
