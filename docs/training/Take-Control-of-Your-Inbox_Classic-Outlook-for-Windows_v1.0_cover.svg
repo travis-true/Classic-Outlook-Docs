@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="2200" viewBox="0 0 1600 2200" role="img" aria-labelledby="title desc">
+  <title id="title">Take Control of Your Inbox: Classic Outlook for Windows cover</title>
+  <desc id="desc">White-background flat design cover for BCBSKS training, with official logo reference, inbox workflow, and Outlook-style inbox illustration.</desc>
+  <defs>
+    <style>
+      .midnight { fill: #002855; }
+      .blue { fill: #005EB8; }
+      .blue-stroke { stroke: #005EB8; }
+      .sky { fill: #77C5D5; }
+      .bluejay { fill: #41B6E6; }
+      .text-gray { fill: #4D4D4F; }
+      .subtle { fill: #E6E7E8; }
+      .soft-blue { fill: #E8F6FB; }
+      .soft-bg { fill: #F4FAFC; }
+      .white { fill: #FFFFFF; }
+      .headline { font-family: Georgia, 'DejaVu Serif', serif; font-weight: 700; font-size: 95px; }
+      .subhead { font-family: Arial, 'DejaVu Sans', sans-serif; font-size: 40px; }
+      .label { font-family: Arial, 'DejaVu Sans', sans-serif; font-weight: 700; font-size: 31px; }
+      .ui { font-family: Arial, 'DejaVu Sans', sans-serif; font-size: 24px; }
+      .footer { font-family: Arial, 'DejaVu Sans', sans-serif; font-weight: 700; font-size: 31px; }
+      .small { font-family: Arial, 'DejaVu Sans', sans-serif; font-size: 28px; }
+      .disclosure { font-family: Arial, 'DejaVu Sans', sans-serif; font-size: 22px; }
+      .line { stroke-linecap: round; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="2200" class="white"/>
+
+  <!-- Subtle brand-colored supporting shapes. They stay inside the page so the cover reads as white-background artwork. -->
+  <polygon points="1060,40 1510,40 1510,640 1300,610 1160,330" class="soft-bg"/>
+  <circle cx="1365" cy="400" r="305" class="soft-blue" opacity="0.75"/>
+  <rect x="80" y="1940" width="1440" height="30" rx="15" class="soft-blue" opacity="0.75"/>
+
+  <!-- Official logo artwork; do not recreate or recolor. -->
+  <image href="../../OFFICIAL%20BCBSKS%20PRIMARY%20LOGO.png" x="110" y="88" width="560" height="85" preserveAspectRatio="xMinYMid meet"/>
+
+  <g id="document-label">
+    <rect x="110" y="300" width="405" height="58" rx="29" class="soft-blue" stroke="#77C5D5" stroke-width="2"/>
+    <text x="140" y="339" class="label midnight">Classic Outlook for Windows</text>
+  </g>
+
+  <g id="cover-copy">
+    <text x="110" y="540" class="headline midnight">Take Control</text>
+    <text x="110" y="652" class="headline midnight">of Your Inbox</text>
+    <rect x="112" y="690" width="318" height="14" rx="7" class="blue"/>
+    <text x="110" y="805" class="subhead text-gray">Step-by-step email organization, follow-up,</text>
+    <text x="110" y="855" class="subhead text-gray">and Copilot guidance for sales teams</text>
+  </g>
+
+  <g id="workflow" font-family="Arial, 'DejaVu Sans', sans-serif" font-weight="700" font-size="31">
+    <rect x="110" y="950" width="154" height="70" rx="35" class="blue"/>
+    <text x="139" y="996" class="white">Email</text>
+    <line x1="280" y1="985" x2="334" y2="985" stroke="#77C5D5" stroke-width="6" class="line"/>
+    <polygon points="334,985 316,974 316,996" class="sky"/>
+
+    <rect x="356" y="950" width="176" height="70" rx="35" class="white blue-stroke" stroke-width="3"/>
+    <text x="385" y="996" class="blue">Decide</text>
+    <line x1="548" y1="985" x2="602" y2="985" stroke="#77C5D5" stroke-width="6" class="line"/>
+    <polygon points="602,985 584,974 584,996" class="sky"/>
+
+    <rect x="624" y="950" width="275" height="70" rx="35" class="white blue-stroke" stroke-width="3"/>
+    <text x="653" y="996" class="blue">Make visible</text>
+    <line x1="915" y1="985" x2="969" y2="985" stroke="#77C5D5" stroke-width="6" class="line"/>
+    <polygon points="969,985 951,974 951,996" class="sky"/>
+
+    <rect x="991" y="950" width="320" height="70" rx="35" class="white blue-stroke" stroke-width="3"/>
+    <text x="1020" y="996" class="blue">Follow through</text>
+  </g>
+
+  <g id="outlook-inbox-mockup">
+    <rect x="674" y="1060" width="840" height="755" rx="42" fill="#DCEAF2"/>
+    <rect x="650" y="1030" width="840" height="755" rx="42" class="white" stroke="#E6E7E8" stroke-width="3"/>
+    <path d="M692 1030h756a42 42 0 0 1 42 42v56H650v-56a42 42 0 0 1 42-42z" class="midnight"/>
+    <text x="700" y="1094" font-family="Arial, 'DejaVu Sans', sans-serif" font-weight="700" font-size="34" class="white">Inbox</text>
+    <rect x="1000" y="1058" width="438" height="46" rx="23" fill="#EAF5F9"/>
+    <text x="1030" y="1091" class="ui text-gray">Search mail</text>
+
+    <rect x="680" y="1160" width="220" height="585" fill="#F6F8F9"/>
+    <rect x="710" y="1205" width="160" height="42" rx="20" fill="#E8F6FB"/>
+    <text x="735" y="1235" class="ui blue">Inbox</text>
+    <text x="735" y="1305" class="ui text-gray">Flagged</text>
+    <text x="735" y="1375" class="ui text-gray">Categories</text>
+    <text x="735" y="1445" class="ui text-gray">Archive</text>
+
+    <g id="message-list">
+      <g transform="translate(0,0)">
+        <rect x="930" y="1185" width="525" height="82" rx="16" class="white" stroke="#E6E7E8" stroke-width="2"/>
+        <circle cx="970" cy="1226" r="15" class="sky"/>
+        <rect x="1005" y="1203" width="215" height="12" rx="6" class="text-gray"/>
+        <rect x="1005" y="1230" width="400" height="11" rx="5" class="subtle"/>
+        <polygon points="1420,1207 1438,1207 1438,1243 1429,1235 1420,1243" class="blue"/>
+      </g>
+      <g transform="translate(0,105)">
+        <rect x="930" y="1185" width="525" height="82" rx="16" fill="#EFF8FB" stroke="#E6E7E8" stroke-width="2"/>
+        <circle cx="970" cy="1226" r="15" class="bluejay"/>
+        <rect x="1005" y="1203" width="215" height="12" rx="6" class="midnight"/>
+        <rect x="1005" y="1230" width="400" height="11" rx="5" class="subtle"/>
+        <polygon points="1420,1207 1438,1207 1438,1243 1429,1235 1420,1243" class="blue"/>
+      </g>
+      <g transform="translate(0,210)">
+        <rect x="930" y="1185" width="525" height="82" rx="16" class="white" stroke="#E6E7E8" stroke-width="2"/>
+        <circle cx="970" cy="1226" r="15" class="sky"/>
+        <rect x="1005" y="1203" width="215" height="12" rx="6" class="text-gray"/>
+        <rect x="1005" y="1230" width="400" height="11" rx="5" class="subtle"/>
+      </g>
+      <g transform="translate(0,315)">
+        <rect x="930" y="1185" width="525" height="82" rx="16" class="white" stroke="#E6E7E8" stroke-width="2"/>
+        <circle cx="970" cy="1226" r="15" class="bluejay"/>
+        <rect x="1005" y="1203" width="215" height="12" rx="6" class="text-gray"/>
+        <rect x="1005" y="1230" width="400" height="11" rx="5" class="subtle"/>
+        <polygon points="1420,1207 1438,1207 1438,1243 1429,1235 1420,1243" class="blue"/>
+      </g>
+      <g transform="translate(0,420)">
+        <rect x="930" y="1185" width="525" height="82" rx="16" class="white" stroke="#E6E7E8" stroke-width="2"/>
+        <circle cx="970" cy="1226" r="15" class="sky"/>
+        <rect x="1005" y="1203" width="215" height="12" rx="6" class="text-gray"/>
+        <rect x="1005" y="1230" width="400" height="11" rx="5" class="subtle"/>
+      </g>
+    </g>
+
+    <rect x="700" y="1658" width="205" height="70" rx="22" class="blue"/>
+    <text x="732" y="1706" class="label white">Flags</text>
+    <rect x="930" y="1658" width="250" height="70" rx="22" class="sky"/>
+    <text x="962" y="1706" class="label white">Categories</text>
+    <rect x="1235" y="1658" width="185" height="70" rx="22" class="midnight"/>
+    <text x="1267" y="1706" class="label white">Copilot</text>
+  </g>
+
+  <g id="footer-art">
+    <line x1="100" y1="1845" x2="610" y2="1845" stroke="#77C5D5" stroke-width="8" class="line"/>
+    <line x1="100" y1="1885" x2="500" y2="1885" stroke="#005EB8" stroke-width="8" class="line"/>
+    <line x1="100" y1="1925" x2="385" y2="1925" stroke="#002855" stroke-width="8" class="line"/>
+  </g>
+
+  <text x="110" y="2057" class="footer midnight">IT Training &amp; Enablement</text>
+  <text x="110" y="2104" class="small text-gray">Version 1.0  |  For company Microsoft 365 work accounts</text>
+  <text x="110" y="2150" class="disclosure text-gray">Blue Cross and Blue Shield of Kansas is an independent licensee of the Blue Cross Blue Shield Association.</text>
+</svg>
