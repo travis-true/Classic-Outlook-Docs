@@ -23,3 +23,17 @@ Outputs are written to `build/output/`:
 - unresolved-items report
 
 The DOCX is generated locally from `02. Detailed build plan.md` with `python-docx` when available. It is not a Markdown placeholder. Generated `.docx` files are intentionally ignored by Git because binary files are not supported for review.
+
+## Employee-facing guide build
+
+```bash
+python3 build/build_classic_outlook_employee_guide.py
+```
+
+The employee-facing build creates:
+
+- `docs/training/Take-Control-of-Your-Inbox_Classic-Outlook-for-Windows.md`
+- `build/output/Take-Control-of-Your-Inbox_Classic-Outlook-for-Windows_v1.0.docx`
+- build, validation, unresolved-items, and source-inventory reports
+
+The generated DOCX is a real editable OOXML Word document. It is generated locally and uploaded by GitHub Actions, but it is not committed because binary files are not supported for review. When `python-docx` is available, the builder uses it for richer Word styling. When local dependency installation is blocked, the builder falls back to a deterministic standard-library OOXML writer so the artifact still builds.
