@@ -7,3 +7,9 @@ build/output/supplemental-assets/**/*.png
 build/output/supplemental-assets/**/*.svg
 build/output/supplemental-assets/**/*.pdf
 build/output/supplemental-assets/**/*.zip
+# Asset 07 generated video package outputs are delivered through workflow artifacts.
+build/output/supplemental-assets/07-video-production-package/**/*.csv
+build/output/supplemental-assets/07-video-production-package/**/*.srt
+build/output/supplemental-assets/07-video-production-package/**/*.vtt
+build/output/supplemental-assets/07-video-production-package/**/*.txt
+assets/07-video-production-package/storyboard-mockups/*.png
