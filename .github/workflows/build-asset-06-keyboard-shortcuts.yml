@@ -1,0 +1,40 @@
+name: Build asset 06 keyboard shortcuts
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'assets/06-keyboard-shortcuts/**'
+      - 'build/build_asset_06_keyboard_shortcuts.py'
+      - 'build/requirements.txt'
+      - '*.md'
+      - 'docs/training/**/*.md'
+      - 'OFFICIAL BCBSKS PRIMARY LOGO.png'
+  pull_request:
+    paths:
+      - 'assets/06-keyboard-shortcuts/**'
+      - 'build/build_asset_06_keyboard_shortcuts.py'
+      - 'build/requirements.txt'
+      - '*.md'
+      - 'docs/training/**/*.md'
+      - 'OFFICIAL BCBSKS PRIMARY LOGO.png'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: python -m pip install --upgrade pip && python -m pip install -r build/requirements.txt
+      - name: Build and validate asset
+        run: python build/build_asset_06_keyboard_shortcuts.py
+      - name: Upload asset artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: classic-outlook-asset-06-keyboard-shortcuts
+          path: |
+            build/output/supplemental-assets/06-keyboard-shortcuts/**
+            build/output/supplemental-assets/validation/Asset-06_*
