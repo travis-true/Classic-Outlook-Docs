@@ -1,0 +1,5 @@
+Item,Status,Editable source,Generated PNG,Evidence status
+Classic Outlook,Synthetic SVG and PNG created,/workspace/Classic-Outlook-Docs/assets/02-outlook-decision-card/mockups/classic-outlook.svg,/workspace/Classic-Outlook-Docs/build/output/supplemental-assets/02-outlook-decision-card/classic-outlook.png,Not version evidence
+New Outlook,Synthetic SVG and PNG created,/workspace/Classic-Outlook-Docs/assets/02-outlook-decision-card/mockups/new-outlook.svg,/workspace/Classic-Outlook-Docs/build/output/supplemental-assets/02-outlook-decision-card/new-outlook.png,Not version evidence
+Outlook on the web,Synthetic SVG and PNG created,/workspace/Classic-Outlook-Docs/assets/02-outlook-decision-card/mockups/outlook-web.svg,/workspace/Classic-Outlook-Docs/build/output/supplemental-assets/02-outlook-decision-card/outlook-web.png,Not version evidence
+Outlook on iPadOS,Synthetic SVG and PNG created,/workspace/Classic-Outlook-Docs/assets/02-outlook-decision-card/mockups/outlook-ipados.svg,/workspace/Classic-Outlook-Docs/build/output/supplemental-assets/02-outlook-decision-card/outlook-ipados.png,Not version evidence
